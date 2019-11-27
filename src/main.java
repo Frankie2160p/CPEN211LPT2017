@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class main {
     public static void main(String[] args){
         int[] a = new int[100];
@@ -7,6 +9,7 @@ public class main {
         int n = 11;
         int m = 50;
         System.out.println(func(n, a, m));
+        System.out.println(Arrays.toString(a));
 
     }
 
